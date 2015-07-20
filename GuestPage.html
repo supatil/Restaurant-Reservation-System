@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to the restaurant-Guest Reservation</title>
+</head>
+
+<header>
+    <nav class="navbar navbar-default" style="background-color: grey">
+        <div class="container">
+            <div class="navbar-header">
+                <h1>Welcome to the restaurant</h1>
+            </div>
+            <ul class="nav navbar-nav navbar-right" id="one">
+                <li><a href="HomePage.html"><span class="glyphicon glyphicon-home">Home</a></li>
+                <li><a href="GuestPage.html">Guest</a></li>
+                <li><a href="OwnerLoginPage.html">Owner</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<article>
+    <h2 class="text-left" id="heading2"><b>Guest</b></h2>
+    <div class="container">
+    <h3 class="text-center" id="heading3"<b>Make a Reservation:</b></h3>
+        <form role="form">
+         <div class="form-group">
+             <div class="col-sm-6">
+             <label for="usr" id="nam">Name:</label>
+             <input type="text" class="form-control" size="6" id="usr">
+         </div>
+         <div class="form-group">
+             <div class="col-sm-6">
+             <label for="ph" id="phno">Phone Number:</label>
+             <input type="text" class="form-control" size="6" id="ph">
+             </div>
+         </div>
+            <div class="form-group">
+                <div class="col-sm-6">
+                <label for="em" id="email">Email:</label>
+                <input type="text" class="form-control" size="7" id="em">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-6">
+                <label for="pple" id="no">Number of people:</label>
+                <input type="text" class="form-control" size="7" id="pple">
+                </div>
+            </div>
+             <div class="form-group">
+                <div class="col-sm-6">
+                <label for="Date" id="dt">Date</label>
+                <input type="date" class="form-control" id="Date" placeholder="MM/DD/YYYY">
+                </div>
+            </div>
+             <div class="form-group">
+                <div class="col-sm-6">
+                <label for="Time" id="tim">Time</label>
+                <input type="time" class="form-control" id="Time" placeholder="HH:MM">
+                </div>
+            </div>
+
+             <div class="form-group">
+                 <div class="col-sm-1">
+                     <br>
+                 <button type="submit" class="btn btn-default" id ="button2">Reserve</button>
+             </div>
+                 </div>
+             <div class="form-group">
+                 <div class="col-sm-1">
+                     <br>
+                     <button type="submit" class="btn btn-default" id ="button3">CancelReservation</button>
+                 </div>
+             </div>
+</form>
+
+</article>
+
+    <div class="navbar navbar-default navbar-fixed-bottom" style="background-color: grey">
+        <div class="container">
+            <div class="col-sm-6">
+                <p id="footer1"><b>Address Information:</b><br>
+                    8356 Neilston Crossing Drive,<br>
+                    zip code:46202</p>
+            </div>
+            <div class="col-sm-6">
+                <p id="footer2"><b>Contact Information:</b><br>
+                    Phone number:317-269-270<br>
+                    Email id:surabhi@gmail.com</p></div>
+        </div>
+    </div>
+
+</body>
+</html>

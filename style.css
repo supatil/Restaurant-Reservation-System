@@ -1,0 +1,29 @@
+#one a{
+    color:black;
+}
+body{
+    background-image: url("background-restaurant.jpg");
+    height:100%;
+}
+h2,h3, p{
+    color:white;
+}
+#arct1, #arct2, #button, #arct3, #button1, #usr, #ph, #em, #pple, #Date, #Time, #button2, #phno, #nam, #email, #no, #dt, #tim, #button3, #Link, #pwd{
+    color:white;
+}
+#button, #button1,#button2, #button3{
+    background-color: grey;
+}
+#text-left{
+    color:white;
+}
+th,tr,td{
+    color:white;
+}
+.footer{
+
+    background-color: grey;
+}
+#footer1, #footer2{
+    color:black;
+}
